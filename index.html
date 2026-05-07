@@ -1,0 +1,198 @@
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=DM+Sans:wght@300;400;500&display=swap');
+  *{box-sizing:border-box;margin:0;padding:0}
+  .cv{max-width:680px;font-family:'DM Sans',sans-serif;color:var(--color-text-primary);background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);overflow:hidden}
+  .header{padding:2rem 2.5rem 1.5rem;border-bottom:0.5px solid var(--color-border-tertiary);position:relative}
+  .header-accent{position:absolute;top:0;left:0;width:5px;height:100%;background:#2D4A6E}
+  .name{font-family:'Playfair Display',serif;font-size:28px;font-weight:600;letter-spacing:-0.3px;color:var(--color-text-primary);margin-bottom:4px}
+  .title-tag{display:inline-block;background:#E8EFF7;color:#2D4A6E;font-size:11px;font-weight:500;padding:3px 10px;border-radius:20px;margin-bottom:12px;letter-spacing:0.5px;text-transform:uppercase}
+  .contact-row{display:flex;flex-wrap:wrap;gap:8px 20px}
+  .contact-item{display:flex;align-items:center;gap:5px;font-size:12px;color:var(--color-text-secondary)}
+  .contact-item i{font-size:13px;color:#2D4A6E}
+  .body{display:grid;grid-template-columns:1fr 220px;min-height:400px}
+  .main{padding:1.5rem 2rem 2rem 2.5rem;border-right:0.5px solid var(--color-border-tertiary)}
+  .side{padding:1.5rem 1.5rem 2rem}
+  .section{margin-bottom:1.5rem}
+  .section-title{font-size:10px;font-weight:500;letter-spacing:1.5px;text-transform:uppercase;color:#2D4A6E;margin-bottom:10px;display:flex;align-items:center;gap:8px}
+  .section-title::after{content:'';flex:1;height:0.5px;background:#2D4A6E;opacity:0.3}
+  .intro{font-size:12.5px;line-height:1.7;color:var(--color-text-secondary)}
+  .job{margin-bottom:1.2rem;padding-bottom:1.2rem;border-bottom:0.5px solid var(--color-border-tertiary)}
+  .job:last-child{border-bottom:none;margin-bottom:0;padding-bottom:0}
+  .job-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:2px;gap:8px}
+  .job-title{font-size:13.5px;font-weight:500;color:var(--color-text-primary)}
+  .job-date{font-size:11px;color:var(--color-text-secondary);white-space:nowrap;padding-top:2px}
+  .job-company{font-size:12px;color:#2D4A6E;font-weight:500;margin-bottom:6px}
+  .job-bullets{list-style:none;padding:0}
+  .job-bullets li{font-size:12px;color:var(--color-text-secondary);line-height:1.6;padding-left:12px;position:relative;margin-bottom:3px}
+  .job-bullets li::before{content:'▸';position:absolute;left:0;color:#2D4A6E;font-size:10px;top:3px}
+  .skill-group{margin-bottom:1rem}
+  .skill-label{font-size:10px;font-weight:500;letter-spacing:0.8px;text-transform:uppercase;color:var(--color-text-secondary);margin-bottom:6px}
+  .skill-tags{display:flex;flex-wrap:wrap;gap:5px}
+  .tag{font-size:11px;padding:3px 8px;border-radius:4px;background:var(--color-background-secondary);color:var(--color-text-secondary);border:0.5px solid var(--color-border-tertiary)}
+  .tag.highlight{background:#E8EFF7;color:#2D4A6E;border-color:#B5D4F4}
+  .edu-item{margin-bottom:8px}
+  .edu-degree{font-size:12.5px;font-weight:500;color:var(--color-text-primary)}
+  .edu-school{font-size:11.5px;color:var(--color-text-secondary)}
+  .edu-year{font-size:11px;color:#2D4A6E}
+  .cert-item{font-size:12px;color:var(--color-text-secondary);padding-left:10px;position:relative;margin-bottom:4px;line-height:1.5}
+  .cert-item::before{content:'•';position:absolute;left:0;color:#2D4A6E}
+  .tools-list{font-size:12px;color:var(--color-text-secondary);line-height:1.8}
+</style>
+<h2 class="sr-only">CV for Megha Prashant Amin — Senior Project Manager with 6+ years experience in data-driven research projects.</h2>
+<div class="cv">
+  <div class="header">
+    <div class="header-accent"></div>
+    <div class="name">Megha Prashant Amin</div>
+    <div class="title-tag">Senior Project Manager</div>
+    <div class="contact-row">
+      <span class="contact-item"><i class="ti ti-phone" aria-hidden="true"></i>+91 8108360813</span>
+      <span class="contact-item"><i class="ti ti-mail" aria-hidden="true"></i>meghaamin1019@gmail.com</span>
+      <span class="contact-item"><i class="ti ti-map-pin" aria-hidden="true"></i>Mumbai, India</span>
+      <span class="contact-item"><i class="ti ti-calendar" aria-hidden="true"></i>10 Jan 1996 · 30 yrs</span>
+    </div>
+  </div>
+
+  <div class="body">
+    <div class="main">
+      <div class="section">
+        <div class="section-title">Profile</div>
+        <p class="intro">Detail-oriented Project Management professional with 6+ years of experience managing data-driven projects, ensuring data accuracy, and delivering client-focused solutions. Strong background in large datasets, data validation, and cross-functional collaboration. Currently building expertise in Data Analytics (SQL, Excel, BI) to transition into analytics-focused roles.</p>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Experience</div>
+
+        <div class="job">
+          <div class="job-header">
+            <span class="job-title">Senior Project Manager</span>
+            <span class="job-date">Jun 2025 – Present</span>
+          </div>
+          <div class="job-company">M360 Research · Mumbai</div>
+          <ul class="job-bullets">
+            <li>Lead end-to-end data collection and research projects ensuring high-quality, timely delivery</li>
+            <li>Manage cross-functional teams, vendors, and stakeholders for seamless project execution</li>
+            <li>Analysed vendor spend data — achieved 12% cost saving and ~10–15% margin improvement</li>
+            <li>Drove ~35–40% gross profit through cost-optimised project planning</li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <div class="job-header">
+            <span class="job-title">Project Manager</span>
+            <span class="job-date">Jan 2023 – Feb 2025</span>
+          </div>
+          <div class="job-company">M360 Research</div>
+          <ul class="job-bullets">
+            <li>Verified datasets for accuracy, removing invalid responses and duplicates</li>
+            <li>Analysed fieldwork trends (IR, quota fill, response rate) to optimise execution strategy</li>
+            <li>Delivered regular project updates and issue resolution to clients</li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <div class="job-header">
+            <span class="job-title">Project Manager</span>
+            <span class="job-date">Apr 2021 – Dec 2022</span>
+          </div>
+          <div class="job-company">Ugam Solutions</div>
+          <ul class="job-bullets">
+            <li>Delivered B2B and B2C data-driven projects ensuring accuracy and operational efficiency</li>
+            <li>Coordinated with internal and external stakeholders across multiple research engagements</li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <div class="job-header">
+            <span class="job-title">Project Manager</span>
+            <span class="job-date">Oct 2020 – Mar 2021</span>
+          </div>
+          <div class="job-company">Pureprofile · Australian Market</div>
+          <ul class="job-bullets">
+            <li>Led B2B & B2C projects — survey programming, quota setup, and sampling strategies</li>
+            <li>Ensured survey logic, data capture mechanisms, and timely project delivery</li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <div class="job-header">
+            <span class="job-title">Associate Project Manager</span>
+            <span class="job-date">Jul 2019 – Oct 2020</span>
+          </div>
+          <div class="job-company">Innovior Research Pvt. Ltd.</div>
+          <ul class="job-bullets">
+            <li>Supported global project execution with focus on data tracking and validation</li>
+            <li>Led client communication, updates, insights, and issue resolution</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="side">
+      <div class="section">
+        <div class="section-title">Core Skills</div>
+        <div class="skill-group">
+          <div class="skill-tags">
+            <span class="tag highlight">Data Validation</span>
+            <span class="tag highlight">Project Management</span>
+            <span class="tag highlight">Client Management</span>
+            <span class="tag highlight">Vendor Management</span>
+            <span class="tag">Data Extraction</span>
+            <span class="tag">Process Improvement</span>
+            <span class="tag">Stakeholder Mgmt</span>
+            <span class="tag">Quality Checks</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Tools & Tech</div>
+        <div class="skill-group">
+          <div class="skill-label">Survey Platforms</div>
+          <div class="skill-tags">
+            <span class="tag">Decipher / Forsta</span>
+            <span class="tag">Confirmit</span>
+            <span class="tag">Alchemer</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-label">Data & Analytics</div>
+          <div class="skill-tags">
+            <span class="tag">MS Excel</span>
+            <span class="tag highlight">SQL (Learning)</span>
+            <span class="tag highlight">BI Tools (Learning)</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-label">Qualitative</div>
+          <div class="skill-tags">
+            <span class="tag">Recollective</span>
+            <span class="tag">Discuss.io</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Education</div>
+        <div class="edu-item">
+          <div class="edu-degree">PGDM — Marketing</div>
+          <div class="edu-school">University of Mumbai</div>
+          <div class="edu-year">2018</div>
+        </div>
+        <div class="edu-item">
+          <div class="edu-degree">B.Com</div>
+          <div class="edu-school">University of Mumbai</div>
+          <div class="edu-year">2016</div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Certifications</div>
+        <div class="cert-item">Business Accounting Skills</div>
+        <div class="cert-item">ISO 9001:2015</div>
+        <div class="cert-item">Aptis — British Council</div>
+        <div class="cert-item">Data Analytics Certification <em>(in progress)</em></div>
+      </div>
+    </div>
+  </div>
+</div>
